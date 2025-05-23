@@ -3965,3 +3965,13 @@
 		.scroll-top i {
 			font-size: 1.5rem; /* Adjust this value (default is 1rem) */
 		}
+
+		/* Add focus styles for all interactive elements */
+		a:focus,
+		button:focus,
+		input:focus,
+		textarea:focus,
+		select:focus {
+		outline: 6px solid #000dff !important; 
+		outline-offset: 2px; 
+		}
